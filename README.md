@@ -39,7 +39,7 @@ This project implements a fully automated data pipeline that:
 ## 🏗 Pipeline Architecture
 
 ```
-┌─────────────────────┐     ┌─────────────────────┐
+┌─────────────────────┐     ┌──────────────────────┐
 │   Books to Scrape   │     │   DummyJSON REST API │
 │  (Selenium Scraper) │     │   (requests library) │
 └────────┬────────────┘     └──────────┬───────────┘
